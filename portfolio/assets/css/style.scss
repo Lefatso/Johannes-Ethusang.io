@@ -1,0 +1,222 @@
+
+$box-shadow : grey;
+$main-color : black;
+$sec-main-color: azure;
+$logo-color: rgb(6, 228, 6);
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+    h1{
+    color: $sec-main-color;
+    text-align: center;}
+
+    .btn{
+      box-shadow: 2px 2px 10px 2px $sec-main-color;
+      background-color: darken($color: $logo-color, $amount: 10);
+    }
+    
+    header{
+        height: auto; 
+        background-color: $main-color;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        box-shadow: 20px 20px 50px $main-color;
+        
+        .navbar{
+            background-color: lighten($color: $main-color, $amount: 5);
+            border-top: 2px solid $logo-color;
+            border-bottom: 2px solid $logo-color;
+        }
+
+        .nav-link{
+            color: $sec-main-color;
+            &:hover{
+              color: $logo-color;
+            }
+        } 
+
+        .navbar-brand{
+            color: $logo-color;
+            font-weight: 900;
+            &:hover{
+              color: $sec-main-color;
+            }
+        } 
+
+        .h-details{
+            color: $sec-main-color;
+           /* width: 800px;
+            margin:10em;
+            padding: 2px;*/
+
+            h1{
+               
+               color: $sec-main-color;
+               font-size: 40px;
+              
+              }
+
+               .name{
+                background-color: lighten($main-color, $amount: 10) ;
+                color: $logo-color;
+                padding: 2px;
+                border-radius: 5px;
+               }
+           // }
+           /* .h-para{
+                margin-left: 5px;
+                padding: 0;            
+            } */
+
+            .btn{
+                 box-shadow: 2px 2px 10px 2px $sec-main-color;
+                 background-color: darken($color: $logo-color, $amount: 10);
+            }
+          
+                   
+        }
+        .wrapper {
+            display: flex;
+            .static-txt {
+              color: #fff;
+              font-size: 30px;
+              font-weight: 400;
+            }
+            .hidden {
+              opacity: 0;
+            }
+            
+            .console-container {
+              font-family: Khula;
+              font-size: 30px;
+              font-weight: 400;
+              text-align: center;
+              color: white;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              margin: auto;
+              
+              .console-underscore {
+                display: inline-block;
+                position: relative;
+                top: -0.14em;
+                left: 10px;
+              }
+            }
+          }
+          
+         
+         
+    }
+
+  /*  .row{
+        background-color:$main-color;
+        height: 800px; 
+        font-family: Arial, Helvetica, sans-serif;
+        align-content:last baseline;
+        justify-content: center;
+        box-shadow: 20px 20px 50px $main-color;
+        margin: 50px auto;
+        padding: 30px;
+        .cert-img{
+          width: 250px;
+        }
+      //  display: block;
+      // border: 5px solid $main-color; ---borders //used to trace the page layout
+    
+       /* .col-lg-4{
+            height: 12em;
+         //   padding: 5px;
+            margin: 50px auto;
+            width: 300px;
+            height: 250px;
+            box-shadow: 5px 5px 20px $box-shadow; 
+            //border: 2px solid $main-color;
+        }*/
+        
+        #member1{
+            width: auto;
+            max-height: 12em;
+        }
+
+     
+        
+      
+        
+    //}
+    .h-1{
+        color: $main-color;
+        margin-top: 50px;
+        font-weight:500;
+        text-shadow: 2px 2px 5px $logo-color;
+    }
+    .lead{
+      color: $sec-main-color;
+    }
+
+    .proj-Certs{
+      margin-top: 20px;
+      height: auto; 
+      background-color: $main-color;
+      //background-image: url("/asset/mjb2.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      box-shadow: 20px 20px 50px 30px $logo-color;
+
+      .h-1{
+        color: $sec-main-color;
+        padding: 15px;
+        font-weight:500;
+        font-style:oblique;  
+      }
+    }
+    
+    .text-wrapper{
+    p{
+      font-size: 7rem;
+      text-align: center;
+      color: $sec-main-color;
+      margin: 0;
+      line-height: 0;
+
+      &:nth-last-of-type(5){
+        color: yellow;
+      }
+    }
+
+    
+  }
+
+  #about-me{
+    color: $sec-main-color;
+    padding: 15px;
+    font-weight: 400;
+    .profile-img{
+      max-width: 100%;
+      height: auto;
+      border-radius: 280px;
+      box-shadow: 5px 5px 5px 10px $logo-color;
+      padding: 10px;
+    }
+    .name{
+      background-color: lighten($main-color, $amount: 10) ;
+      color: $logo-color;
+      padding: 2px;
+      border-radius: 5px;
+     }
+     .accordion-button{
+      background-color: lighten($color: $logo-color, $amount: 30);
+     }
+
+     .btn{
+      box-shadow: 2px 2px 10px 2px $sec-main-color;
+      background-color: darken($color: $logo-color, $amount: 10);
+    }
+    
+  }
+  
+
+
